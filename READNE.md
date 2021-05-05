@@ -1,3 +1,7 @@
+# Data Encryption Standard on PHP
+## Usage
+
+```php
 <?php
 
 declare(strict_types=1);
@@ -26,3 +30,4 @@ echo "Ciphertext(block): {$cipherString}" . PHP_EOL;
  * key:               0000111100001111000011110000111100001111000011110000111100001111
  * Ciphertext(block): 1111001100000000110011110000000011001100111111001111000011111111
  */
+```
