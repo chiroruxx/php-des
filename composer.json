@@ -1,0 +1,22 @@
+{
+    "name": "chiroruxx/php-des",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chiroruxx\\DES\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chiroruxx\\DES\\Test\\" : "test/"
+        }
+    }
+}
